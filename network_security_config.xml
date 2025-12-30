@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 
+      Security Policy v9.0: STRICT HTTPS
+      Cleartext traffic is strictly forbidden.
+      This forces the app to use encrypted channels for all reporting.
+      Ensure your server has a valid or trusted certificate.
+    -->
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>
